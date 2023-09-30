@@ -1,6 +1,5 @@
 function flattenMap(map) {
   const resObj = {}
-  const nameMap = ''
 
   if (Object.keys(map).length === 0) return {}
 
