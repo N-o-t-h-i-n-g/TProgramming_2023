@@ -3,9 +3,9 @@ export default class Fox {
   private aYear: number;
   color: string;
 
-  constructor(name: string, color: string, year?: number) {
-    this.aName = name;
-    this.color = color;
+  constructor(name?: string, color?: string, year?: number) {
+    this.aName = name || 'unknown';
+    this.color = color || 'unknown';
     if (year !== undefined) {
       this.year = year;
     }
@@ -38,11 +38,18 @@ export default class Fox {
   }
 
   set year(year: number) {
-    this.aYear = year >= 2000 && year < 2023 ? year : this.aYear >= 2000 && this.aYear < 2023 ? this.aYear : 2000;
+    if (year < 2000 || year >= 2023) {
+      throw new Error('Invalid year. Year must be between 2000 (inclusive) and 2023 (exclusive).');
+    }
+
+    this.aYear = year;
   }
 
-  infoAboutFox(): void {
-    console.log(`Your fox is named ${this.name} , has ${this.color} coat color and is ${this.year} years old.`);
+  info(): string {
+    if (this.aName === 'unknown' && this.color === 'unknown' && this.year === undefined) {
+      return 'No info, only view';
+    }
+    return `Your fox is named ${this.name} , has ${this.color} coat color, and is ${this.year} years old.`;
   }
 
   changeColor(newColor: string): void {
@@ -50,18 +57,12 @@ export default class Fox {
   }
 
   // Лисица издаёт звук
-  makeSound(): void {
-    console.log('The fox makes a squeaky sound.');
+  makeSound(): string {
+    return 'The fox makes a squeaky sound.';
   }
 
   // Лисица охотится
-  hunt(prey: string): void {
-    console.log(`${this.name} hunts ${prey}`);
-  }
-
-  static createFoxWithoutInfo(): Fox {
-    const fox = new Fox('Unknown Fox', 'Unknown Color');
-    delete fox.year;
-    return fox;
+  hunt(prey: string): string {
+    return `${this.name} hunts ${prey}`;
   }
 }

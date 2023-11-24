@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="526acb65-41b1-417e-9ce2-b96826a86a3a" name="Changes" comment="CodeWars yse">
-      <change afterPath="$PROJECT_DIR$/rpgsaga/saga/src/fox.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpgsaga/saga/tests/fox.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpgsaga/saga/tests/foxConstructor.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpgsaga/saga/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/rpgsaga/saga/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpgsaga/saga/src/phone.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpgsaga/saga/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/rpgsaga/saga/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpgsaga/saga/src/fox.ts" beforeDir="false" afterPath="$PROJECT_DIR$/rpgsaga/saga/src/fox.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpgsaga/saga/tests/fox.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/rpgsaga/saga/tests/foxMethods.spec.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +37,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "Tsyganov__Vladislav__Vasilevich",
     "js.last.introduce.type": "CONST",
-    "last_opened_file_path": "G:/Vus/инфа/TProgramming_2023/codewars",
+    "last_opened_file_path": "G:/Vus/инфа/TProgramming_2023",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,16 +55,15 @@
     </key>
   </component>
   <component name="RunManager" selected="Jest.Testing fox methods">
-    <configuration name="Testing fox constructor.A fox like yourself" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Testing fox constructor" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/rpgsaga/saga/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$/rpgsaga/saga" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/rpgsaga/saga/tests/fox.spec.ts" />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/rpgsaga/saga/tests/foxConstructor.spec.ts" />
       <test-names>
         <test-name value="Testing fox constructor" />
-        <test-name value="A fox like yourself" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -76,7 +73,7 @@
       <working-dir value="$PROJECT_DIR$/rpgsaga/saga" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/rpgsaga/saga/tests/fox.spec.ts" />
+      <test-file value="$PROJECT_DIR$/rpgsaga/saga/tests/foxConstructor.spec.ts" />
       <test-names>
         <test-name value="Testing fox constructor" />
         <test-name value="Fox year higher than bound" />
@@ -89,23 +86,10 @@
       <working-dir value="$PROJECT_DIR$/rpgsaga/saga" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/rpgsaga/saga/tests/fox.spec.ts" />
+      <test-file value="$PROJECT_DIR$/rpgsaga/saga/tests/foxConstructor.spec.ts" />
       <test-names>
         <test-name value="Testing fox constructor" />
         <test-name value="Fox year lower than bound" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Testing fox constructor.should create a Fox with default info" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <jest-package value="$PROJECT_DIR$/rpgsaga/saga/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$/rpgsaga/saga" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/rpgsaga/saga/tests/fox.spec.ts" />
-      <test-names>
-        <test-name value="Testing fox constructor" />
-        <test-name value="should create a Fox with default info" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -115,19 +99,33 @@
       <working-dir value="$PROJECT_DIR$/rpgsaga/saga" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/rpgsaga/saga/tests/fox.spec.ts" />
+      <test-file value="$PROJECT_DIR$/rpgsaga/saga/tests/foxMethods.spec.ts" />
       <test-names>
         <test-name value="Testing fox methods" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Testing fox methods.Method: changeColor.should change the fox color" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/rpgsaga/saga/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/rpgsaga/saga" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/rpgsaga/saga/tests/foxMethods.spec.ts" />
+      <test-names>
+        <test-name value="Testing fox methods" />
+        <test-name value="Method: changeColor" />
+        <test-name value="should change the fox color" />
       </test-names>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Jest.Testing fox methods" />
-        <item itemvalue="Jest.Testing fox constructor.should create a Fox with default info" />
+        <item itemvalue="Jest.Testing fox constructor" />
         <item itemvalue="Jest.Testing fox constructor.Fox year higher than bound" />
         <item itemvalue="Jest.Testing fox constructor.Fox year lower than bound" />
-        <item itemvalue="Jest.Testing fox constructor.A fox like yourself" />
+        <item itemvalue="Jest.Testing fox methods.Method: changeColor.should change the fox color" />
       </list>
     </recent_temporary>
   </component>
@@ -142,6 +140,9 @@
       <workItem from="1696105754443" duration="620000" />
       <workItem from="1696106475601" duration="369000" />
       <workItem from="1696106861932" duration="7796000" />
+      <workItem from="1696166702329" duration="35000" />
+      <workItem from="1696167505062" duration="297000" />
+      <workItem from="1700858924139" duration="5809000" />
     </task>
     <task id="LOCAL-00001" summary="CodeWars yse">
       <option name="closed" value="true" />
