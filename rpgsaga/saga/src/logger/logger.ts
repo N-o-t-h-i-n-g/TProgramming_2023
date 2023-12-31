@@ -1,11 +1,20 @@
-import { DamageType, damageValues } from '../constants/constants';
+import { BasicHero } from '../heroes/basicHero';
 
-function dealDamage(type: DamageType) {
-  const damageInfo = damageValues[type];
-  if (damageInfo) {
-    console.log(`Нанесено ${damageInfo.damage} урона типа ${type} таким то пресонажем по такомуто персонажу`);
-    console.log(`У такого то персонажа осталось столько то то урона`);
-  } else {
-    console.log(`Неизвестный тип урона: ${type}`);
+export class Logger {
+  static startMessage() {
+    console.log('Битва началась');
+  }
+
+  static endMessage(target: BasicHero, typeHero: string) {
+    console.log(`Битва завершена. ${typeHero} одержал победу над ${target} . У него осталось .. здоровья`);
+  }
+
+  static dealDamageLog(damageInfo: number, typeAttack: string, typeHero: string, target: BasicHero) {
+    if (damageInfo) {
+      console.log(`Нанесено ${damageInfo} урона типа ${typeAttack} пресонажем ${typeHero} по противнику ${target}`);
+      console.log(`У ${target} осталось ${target.currentHealth} здоровья`);
+    } else {
+      console.log(`Неизвестный тип урона: ${typeAttack}`);
+    }
   }
 }
