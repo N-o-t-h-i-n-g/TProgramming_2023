@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
         "types": ["jest", "node"],
-        "target": "ES6"
+        "esModuleInterop": true
     }
 }

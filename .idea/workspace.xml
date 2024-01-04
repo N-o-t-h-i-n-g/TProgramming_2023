@@ -5,21 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="526acb65-41b1-417e-9ce2-b96826a86a3a" name="Changes" comment="fix errors">
-      <change afterPath="$PROJECT_DIR$/rpgsaga/saga/src/constants/config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpgsaga/saga/src/heroes/archerHero.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpgsaga/saga/src/heroes/basicHero.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpgsaga/saga/src/heroes/dragonHero.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpgsaga/saga/src/heroes/magicianHero.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpgsaga/saga/src/heroes/warriorHero.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpgsaga/saga/tests/testArcher.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpgsaga/saga/tests/testDragonHero.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpgsaga/saga/tests/testLogger.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpgsaga/saga/tests/testMagicianHero.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpgsaga/saga/tests/testStartGame.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpgsaga/saga/tests/testWarriorHero.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpgsaga/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/rpgsaga/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpgsaga/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/rpgsaga/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rpgsaga/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/rpgsaga/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpgsaga/saga/src/constants/constants.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpgsaga/saga/src/heros/basicHero.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpgsaga/saga/src/heros/warriorHero.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpgsaga/saga/src/constants/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/rpgsaga/saga/src/constants/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpgsaga/saga/src/heroes/archerHero.ts" beforeDir="false" afterPath="$PROJECT_DIR$/rpgsaga/saga/src/heroes/archerHero.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpgsaga/saga/src/heroes/basicHero.ts" beforeDir="false" afterPath="$PROJECT_DIR$/rpgsaga/saga/src/heroes/basicHero.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpgsaga/saga/src/heroes/dragonHero.ts" beforeDir="false" afterPath="$PROJECT_DIR$/rpgsaga/saga/src/heroes/dragonHero.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpgsaga/saga/src/heroes/magicianHero.ts" beforeDir="false" afterPath="$PROJECT_DIR$/rpgsaga/saga/src/heroes/magicianHero.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpgsaga/saga/src/heroes/warriorHero.ts" beforeDir="false" afterPath="$PROJECT_DIR$/rpgsaga/saga/src/heroes/warriorHero.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rpgsaga/saga/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/rpgsaga/saga/src/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rpgsaga/saga/src/logger/logger.ts" beforeDir="false" afterPath="$PROJECT_DIR$/rpgsaga/saga/src/logger/logger.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rpgsaga/saga/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/rpgsaga/saga/src/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rpgsaga/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/rpgsaga/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpgsaga/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/rpgsaga/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,30 +48,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Tsyganov__Vladislav__Vasilevich",
-    "ignore.virus.scanning.warn.message": "true",
-    "javascript.nodejs.core.library.configured.version": "21.1.0",
-    "javascript.nodejs.core.library.typings.version": "20.10.5",
-    "js.last.introduce.type": "CONST",
-    "last_opened_file_path": "G:/Vus/инфа/TProgramming_2023/rpgsaga/saga",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "G:/Vus/инфа/TProgramming_2023/rpgsaga/fox/node_modules/jest",
-    "nodejs_package_manager_path": "yarn",
-    "prettierjs.PrettierConfiguration.Package": "G:\\Vus\\инфа\\TProgramming_2023\\rpgsaga\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "G:\\Vus\\инфа\\TProgramming_2023\\rpgsaga\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Tsyganov__Vladislav__Vasilevich&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;21.1.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.10.5&quot;,
+    &quot;js.last.introduce.type&quot;: &quot;CONST&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Vus/инфа/TProgramming_2023/rpgsaga/saga&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;G:/Vus/инфа/TProgramming_2023/rpgsaga/node_modules/jest&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;prettier.import.notification.dismissed&quot;: &quot;true&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;G:\\Vus\\инфа\\TProgramming_2023\\rpgsaga\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;G:\\Vus\\инфа\\TProgramming_2023\\rpgsaga\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\Vus\инфа\TProgramming_2023\rpgsaga\saga" />
@@ -77,73 +84,6 @@
       <recent name="G:\Vus\инфа\TProgramming_2023\rpgsaga\fox" />
       <recent name="G:\Vus\инфа\TProgramming_2023\rpgsaga\saga\src\logger" />
     </key>
-  </component>
-  <component name="RunManager" selected="npm.dev">
-    <configuration name="Example" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <jest-package value="$PROJECT_DIR$/rpgsaga/fox/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$/rpgsaga/fox" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/rpgsaga/fox/tests/example.spec.ts" />
-      <test-names>
-        <test-name value="Example" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Testing fox constructor (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <jest-package value="$PROJECT_DIR$/rpgsaga/fox/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$/rpgsaga/fox" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/rpgsaga/fox/tests/foxConstructor.spec.ts" />
-      <test-names>
-        <test-name value="Testing fox constructor" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Testing fox methods" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <jest-package value="$PROJECT_DIR$/rpgsaga/saga/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$/rpgsaga/saga" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/rpgsaga/saga/tests/foxMethods.spec.ts" />
-      <test-names>
-        <test-name value="Testing fox methods" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/rpgsaga/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/rpgsaga/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="test" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.dev" />
-        <item itemvalue="npm.test" />
-        <item itemvalue="Jest.Testing fox constructor (1)" />
-        <item itemvalue="Jest.Example" />
-        <item itemvalue="Jest.Testing fox methods" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -168,6 +108,14 @@
       <workItem from="1704018664563" duration="4797000" />
       <workItem from="1704039566996" duration="356000" />
       <workItem from="1704039980354" duration="184000" />
+      <workItem from="1704040184720" duration="1326000" />
+      <workItem from="1704202131712" duration="317000" />
+      <workItem from="1704202463397" duration="787000" />
+      <workItem from="1704203276563" duration="25231000" />
+      <workItem from="1704285446812" duration="15249000" />
+      <workItem from="1704316042716" duration="385000" />
+      <workItem from="1704382132167" duration="13403000" />
+      <workItem from="1704399920482" duration="650000" />
     </task>
     <task id="LOCAL-00001" summary="CodeWars yse">
       <option name="closed" value="true" />
@@ -203,5 +151,12 @@
     <MESSAGE value="CodeWars yse" />
     <MESSAGE value="fix errors" />
     <option name="LAST_COMMIT_MESSAGE" value="fix errors" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="js.build_tools.npm">
+        <watch expression="this.heroes" language="TypeScript" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

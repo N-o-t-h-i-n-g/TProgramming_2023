@@ -1,4 +1,4 @@
-import { DamageType, maxDamageValues, maxHealthValue } from '../constants/config';
+import { criticalDamage, DamageType, maxDamageValues, maxHealthValue } from '../constants/config';
 
 import { BasicHero } from './basicHero';
 
@@ -7,6 +7,11 @@ export class Warrior extends BasicHero {
 
   constructor(name: string) {
     super(name, DamageType.Physical, 0, maxHealthValue.Warrior);
-    this.damageCaused = Math.floor(Math.random() * maxDamageValues.Physical);
+  }
+
+  performUltraAttack() {
+    this.typeAttack = DamageType.Physical;
+    this.damageCaused =
+      Math.floor(Math.random() * (maxDamageValues[this.typeAttack] - 11) + 10) + criticalDamage[this.typeAttack].damage;
   }
 }
