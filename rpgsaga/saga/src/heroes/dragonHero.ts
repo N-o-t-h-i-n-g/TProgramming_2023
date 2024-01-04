@@ -9,7 +9,7 @@ export class Dragon extends BasicHero {
     super(name, DamageType.Fire, 0, maxHealthValue.Dragon);
   }
 
-  performUltraAttack(target?:BasicHero) {
+  performUltraAttack() {
     this.damageCaused =
       Math.floor(Math.random() * (maxDamageValues[this.typeAttack] - 11) + 10) + criticalDamage[this.typeAttack].damage;
   }
